@@ -3,7 +3,7 @@ requires = [ "hatchling" ]
 build-backend = "hatchling.build"
 
 [project]
-name = "com.name.winui-as-ttk"
+name = "live.neomi.tkinter_overhaul"
 authors = [{ name="Neomi Inciso Mendoza", email="neoincisomendoza+python@gmail.com" }]
 version = "0.0.1"
 requires-python = ">=3.10"
@@ -16,12 +16,11 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
-description = "WinU 2.5.0.0 as a Python 3 package"
+description = "`tkinter.py` overhaul"
 keywords = [
-    "winui",
+    "tcl",
     "ttk",
-    "windows-gui",
-    "windows-ui",
+    "tk",
     "ui",
     "gui",
 ]
@@ -29,10 +28,9 @@ classifiers = [
     "Development Status :: 1 - Planning",
     "Natural Language :: English",
     "Programming Language :: Python :: 3",
-    "Typing :: Typed",
 ]
 readme = { file = "README.md", content-type = "text/markdown" }
 
 [project.urls]
-Homepage = "https://github.com/neoincisomendoza/winu-as-ttk"
-Issues = "https://github.com/neoincisomendoza/winu-as-ttk/issues"
+Homepage = "https://github.com/neoincisomendoza/tkinter_overhauled"
+Issues = "https://github.com/neoincisomendoza/tkinter_overhauled/issues"
